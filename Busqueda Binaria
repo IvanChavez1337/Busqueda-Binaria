@@ -63,11 +63,11 @@ for(i=0;i<5;i++){
 		}
 	}
 	
-	if(bandera !='V'){
+	if(bandera =='F'){
 		printf("El numero no existe");
 	}
 	else if(bandera =='V'){
-		printf("El numero si esta, en la posicion [%d]",mitad);
+		printf("El numero existe, en la posicion [%d]",mitad);
 	}
 	
 	
